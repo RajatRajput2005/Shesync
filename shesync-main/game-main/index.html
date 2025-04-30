@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!-- favicon -->
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>SheSync-Games</title>
+    <!-- css -->
+    <link href="game/Assets/Css/style.css" rel="stylesheet" type="text/css" />
+    <script src="game/Script/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  </head>
+
+  <body onload="loaded()">
+    <div id="loader"></div>
+    <header>
+      <!-- <a href="game/index.html"><img src="game/Assets/Images/SheSync.png" alt="SheSync" /></a> -->
+      <!-- <nav class="navbar">
+        <div class="content">
+          <ul class="menu-list">
+            <div class="icon cancel-btn">
+              <i class="fas fa-times"></i>
+            </div>
+            <li class="items"><a href="game/index.html">Home</a></li>
+            <li class="items"><a href="game/info.html">Info</a></li>
+            <li class="items alt"><a href="game/games.html">Fun</a></li>
+            <li class="items"><a href="game/gethelp.html">GetHelp</a></li>
+          </ul>
+          <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav> -->
+    </header>
+      <h1 class="game-list--heading">Games</h1>
+      <div class="gamess">
+        <div class="game-list">
+          <div class="list-card">
+            <div class="list-card--image">
+              <img src="game/Assets/Images/quiz.jpg" alt="memorygame" height="200px" />
+            </div>
+            <div class="list-card--content">
+              <h2 class="list-card--heading">Quiz</h2>
+              <p class="list-card--text">
+                Its a mental state assessment quiz. You will be given a set of questions. From your responses our
+                algorithm will be able to determine your mental state and it'll create a playlist for you. Listen to the
+                playlist and you'll be able to improve your mental state.
+              </p>
+              <a href="game/quiz.html" class="list-card--btn">Play</a>
+            </div>
+          </div>
+          <div class="list-card">
+            <div class="list-card--image">
+              <img src="game/Assets/Images/sudoku.jpg" alt="sudoku" height="200px" />
+            </div>
+            <div class="list-card--content">
+              <h2 class="list-card--heading">Sudoku</h2>
+              <p class="list-card--text">
+                Sudoku is a logic-based, combinatorial number-placement puzzle. In classic sudoku, the objective is to
+                fill a 9 × 9 grid with digits so that each column, each row, and each of the nine 3 × 3 subgrids that
+                compose the grid contain all of the digits from 1 to 9.
+              </p>
+              <a href="game/sudoku.html" class="list-card--btn">Play</a>
+            </div>
+          </div>
+          <div class="list-card">
+            <div class="list-card--image">
+              <img src="game/Assets/Images/memorygame.jpg" alt="memorygame" height="200px" />
+            </div>
+            <div class="list-card--content">
+              <h2 class="list-card--heading">Memory Game</h2>
+              <p class="list-card--text">
+                Test your memory with this memory game. The higher the number, the more cards are in the memo game. On
+                the game board, there are always two identical images. Start the game by flipping a card. Then try to
+                find another card that has the same image as the first.
+              </p>
+              <a href="game/memory-game.html" class="list-card--btn">Play</a>
+            </div>
+          </div>
+
+          <div class="list-card">
+            <div class="list-card--image">
+              <img src="game/Assets/Images/laugh.jpg" alt="memorygame" height="200px"/>
+            </div>
+            <div class="list-card--content">
+              <h2 class="list-card--heading">Jokes And Quotes</h2>
+              <p class="list-card--text">
+                Enjoy the best jokes and quotes from the internet. You can also share those jokes and quotes with your
+                friend. IF you are feeling low uplift your mood by enjoying and sharing the jokes and quotes.
+              </p>
+              <a href="game/fun.html" class="list-card--btn">Play</a>
+            </div>
+          </div>
+          <div class="list-card">
+            <div class="list-card--image">
+              <img src="game/Assets/Images/mood-map.png" alt="memorygame" height="200px"/>
+            </div>
+            <div class="list-card--content">
+              <h2 class="list-card--heading">Mood Map</h2>
+              <p class="list-card--text">
+                Create a Mood Map to know your mood and see how it affects your health. In Mood Map your mood will be
+                detected from real time video feed. You can also take a snapshot of your Mood Map and share it with your
+                friends or in social media.
+              </p>
+              <a href="game/mood.html" class="list-card--btn">Visit</a>
+            </div>
+          </div>
+          <div class="list-card">
+            <div class="list-card--image">
+              <img src="game/Assets/Images/music.jpg" alt="Music Player" height="200px"/>
+            </div>
+            <div class="list-card--content">
+              <h2 class="list-card--heading">Audio Player</h2>
+              <p class="list-card--text">
+                This is a music player with some great features. You can play your favorite songs, play your favorite
+                songs and uplift your mood. There also a audio visualizer to visualize the audio spectrum you are
+                playing.
+              </p>
+              <a href="game/Audio_player.html" class="list-card--btn">Visit</a>
+            </div>
+          </div>
+          <div class="list-card">
+            <div class="list-card--image">
+              <img src="game/Assets/Images/simon.jpg" alt="Music Player" height="200px" />
+            </div>
+            <div class="list-card--content">
+              <h2 class="list-card--heading">Simon Game</h2>
+              <p class="list-card--text">
+                The game has four colored buttons, each producing a particular tone when it is pressed or activated by the device. A round in the game consists of the device lighting up one or more buttons in a random order.
+              </p>
+              <a href="game/simon.html" class="list-card--btn">Visit</a>
+              </div>
+            <div class="list-card">
+            <div class="list-card--image">
+              <img src="https://www.youcubed.org/wp-content/uploads/2020/03/shutterstock_1140911045.png" alt="dicegame" />
+            </div>
+            <div class="list-card--content">
+              <h2 class="list-card--heading">Dice Game</h2>
+              <p class="list-card--text">
+                This is a dice game consisting of two die where you roll them to get random numbers.The die with larger number win, and if they are same,then obviously its a tie.
+              </p>
+              <a href="game/dice.html" class="list-card--btn">Visit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- <footer class="footer">
+      <p>Made with <i class="fa fa-heart pulse"></i> by Team SheSync</p>
+    </footer> -->
+    <script src="game/Script/script.js"></script>
+    <script src="game/Script/quiz.js"></script>
+  </body>
+</html>
