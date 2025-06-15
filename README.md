@@ -10,7 +10,7 @@
 
 ## 🌐 Live Demo
 
-🔗 [SheSync Live](https://shesync.vercel.app)
+🔗 [SheSync Live](https://shesync.netlify.app/)
 
 ---
 
